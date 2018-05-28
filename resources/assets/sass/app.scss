@@ -1,0 +1,74 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+#footer {
+  bottom: 0%;
+  position: fixed;
+  width: 100%;
+}
+
+.footer-text {
+  text-align: center;
+  width: 100%;
+  color: white;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+#navbar-logo {
+  height: 15%;
+  padding: 0%;
+  width: 5.5%;
+ .logo {
+  border-radius: 10%;
+  height: 100%;
+  width: 100%
+ }
+}
+
+#course_button {
+  float: right;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#pagecontent {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#coursescontent {
+  margin-left: 10%;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+#navbarNav {
+.nav-link {
+  color: white;
+}
+}
+#logoutbutton {
+  background-color: #212529;
+  border-color: #212529;
+  border: 0;
+  padding: 0;
+  background: none;
+  outline: none;
+}
